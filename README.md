@@ -160,6 +160,6 @@ This builds a standalone app for the system it runs on, in `dist/`. `--tools` fi
 
 ## License
 
-[PolyForm Noncommercial 1.0.0](LICENSE): free to use, change and share for any noncommercial purpose. Selling it or other commercial use needs a separate license; open an issue to ask.
+[PolyForm Noncommercial 1.0.0](LICENSE.md): free to use, change and share for any noncommercial purpose. Selling it or other commercial use needs a separate license; open an issue to ask.
 
 Release builds also contain third-party programs under their own licences, listed in [THIRD-PARTY.md](THIRD-PARTY.md).

@@ -98,7 +98,7 @@ def pyinstaller(with_tools: bool) -> None:
 
 
 def package(name: str) -> Path:
-    notices = [HERE / "LICENSE", HERE / "THIRD-PARTY.md"]
+    notices = [HERE / "LICENSE.md", HERE / "THIRD-PARTY.md"]
     if sys.platform == "darwin":
         out = DIST / f"{name}.zip"
         # ditto keeps the app bundle's symlinks and permissions, which zipfile doesn't.
